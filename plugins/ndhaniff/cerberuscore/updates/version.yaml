@@ -1,0 +1,8 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table ndhaniff_cerberuscore_movie'
+    - builder_table_create_ndhaniff_cerberuscore_movie.php
+1.0.3:
+    - 'Updated table ndhaniff_cerberuscore_movie'
+    - builder_table_update_ndhaniff_cerberuscore_movie.php

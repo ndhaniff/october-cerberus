@@ -1,0 +1,10 @@
+name: Movies
+form: $/ndhaniff/cerberuscore/models/movie/fields.yaml
+modelClass: Ndhaniff\CerberusCore\Models\Movie
+defaultRedirect: ndhaniff/cerberuscore/movies
+create:
+    redirect: 'ndhaniff/cerberuscore/movies/update/:id'
+    redirectClose: ndhaniff/cerberuscore/movies
+update:
+    redirect: ndhaniff/cerberuscore/movies
+    redirectClose: ndhaniff/cerberuscore/movies

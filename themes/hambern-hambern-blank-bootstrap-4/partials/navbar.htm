@@ -1,0 +1,23 @@
+description = "Navigation bar"
+
+[localePicker]
+forceUrl = 0
+==
+<section id="navbar" class="m-b-3">
+	<nav class="navbar navbar-dark bg-inverse navbar-fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="{{ 'features'|page }}"><img src="http://localhost/october/storage/app/media/TinnoLab.png" width="100px" alt=""></a>
+			<ul class="nav navbar-nav pull-xs-right">
+				<li class="nav-item{{ this.page.baseFileName == 'features' ? ' active' }}">
+					<a class="nav-link" href="{{ 'features'|page }}">Features</a>
+				</li>
+				<li class="nav-item{{ this.page.baseFileName == 'author' ? ' active' }}">
+					<a class="nav-link" href="{{ 'author'|page }}">Author</a>
+				</li>
+				<li class="nav-item" >
+                    {% component 'localePicker' %}
+				</li>
+			</ul>
+		</div>
+	</nav>
+</section>

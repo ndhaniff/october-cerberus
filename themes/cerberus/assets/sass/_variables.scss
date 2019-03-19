@@ -1,0 +1,24 @@
+$primary:       tomato !default;
+$secondary:     gray !default;
+$success:       olive !default;
+$info:          skyblue !default;
+$warning:       lightyellow !default;
+$danger:        crimson !default;
+$light:         white !default;
+$dark:          #2a2827 !default;
+
+$theme-colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$theme-colors: map-merge(
+  (
+    "primary":    $primary,
+    "secondary":  $secondary,
+    "success":    $success,
+    "info":       $info,
+    "warning":    $warning,
+    "danger":     $danger,
+    "light":      $light,
+    "dark":       $dark
+  ),
+  $theme-colors
+);

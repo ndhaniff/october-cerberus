@@ -1,0 +1,11 @@
+plugin:
+    name: 'ndhaniff.cerberuscore::lang.plugin.name'
+    description: 'ndhaniff.cerberuscore::lang.plugin.description'
+    author: ndhaniff
+    icon: oc-icon-adn
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Movies
+        url: ndhaniff/cerberuscore/movies
+        icon: icon-video-camera

@@ -1,0 +1,12 @@
+title: Movies
+modelClass: Ndhaniff\CerberusCore\Models\Movie
+list: $/ndhaniff/cerberuscore/models/movie/columns.yaml
+recordUrl: 'ndhaniff/cerberuscore/movies/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+recordsPerPage: 20
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

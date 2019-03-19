@@ -1,0 +1,60 @@
+1553012670a:1:{s:10:"navbar.htm";a:7:{s:8:"fileName";s:10:"navbar.htm";s:7:"content";s:1507:"description = "Navigation bar"
+forceUrl = 0
+==
+<section id="navbar" class="m-b-3"></section>
+	<nav class="navbar navbar-expand-md border">
+		<a class="navbar-brand" href="{{ 'features'|page }}">
+			<img src="http://localhost/october/storage/app/media/TinnoLab.png" width="80px" alt="">
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+	
+		<div class="collapse navbar-collapse" id="cerberus-navbar">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item{{ this.page.baseFileName == 'index' ? ' active' }}">
+					<a class="nav-link" href="{{ 'index'|page }}">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item{{ this.page.baseFileName == 'login' ? ' active' }}">
+					<a class="nav-link" href="{{ 'login'|page }}">Login</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown01">
+						<a class="dropdown-item" href="#">Action</a>
+						<a class="dropdown-item" href="#">Another action</a>
+						<a class="dropdown-item" href="#">Something else here</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</nav>
+</section>";s:5:"mtime";i:1553012068;s:6:"markup";s:1457:"<section id="navbar" class="m-b-3"></section>
+	<nav class="navbar navbar-expand-md border">
+		<a class="navbar-brand" href="{{ 'features'|page }}">
+			<img src="http://localhost/october/storage/app/media/TinnoLab.png" width="80px" alt="">
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+	
+		<div class="collapse navbar-collapse" id="cerberus-navbar">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item{{ this.page.baseFileName == 'index' ? ' active' }}">
+					<a class="nav-link" href="{{ 'index'|page }}">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item{{ this.page.baseFileName == 'login' ? ' active' }}">
+					<a class="nav-link" href="{{ 'login'|page }}">Login</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown01">
+						<a class="dropdown-item" href="#">Action</a>
+						<a class="dropdown-item" href="#">Another action</a>
+						<a class="dropdown-item" href="#">Something else here</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</nav>
+</section>";s:4:"code";N;s:11:"description";s:14:"Navigation bar";s:8:"forceUrl";s:1:"0";}}

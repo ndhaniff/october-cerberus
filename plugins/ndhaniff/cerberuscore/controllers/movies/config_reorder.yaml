@@ -1,0 +1,4 @@
+title: Movies
+modelClass: Ndhaniff\CerberusCore\Models\Movie
+toolbar:
+    buttons: reorder_toolbar
